@@ -129,6 +129,9 @@ export const bocaditoSlice = createSlice({
 		cleanBocadito: (state) => {
 			state.bocaditoSelected = null;
 		},
+		cleanFeed: (state) => {
+			state.bocaditos = [];
+		},
 	},
 	extraReducers: (builder) => {
 		builder
@@ -209,5 +212,5 @@ export const bocaditoSlice = createSlice({
 	},
 });
 
-export const { reset, cleanBocadito } = bocaditoSlice.actions;
+export const { reset, cleanBocadito, cleanFeed } = bocaditoSlice.actions;
 export default bocaditoSlice.reducer;

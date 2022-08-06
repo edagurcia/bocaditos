@@ -21,3 +21,5 @@ Una red social de prueba para comelones de todo el mundo para compartir sus rece
 - React Toastify
 - Axios
 - React Router Dom
+
+LINK: https://eda-bocaditos.herokuapp.com/
